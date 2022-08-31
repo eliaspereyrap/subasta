@@ -23,17 +23,17 @@ class Pujante {
     }
 }
 
-const heladera = new Producto("Heladera", 350, 900)
-const cocina = new Producto("Cocina", 300, 950)
-const microondas = new Producto("Microondas", 100, 1575)
-const mesa = new Producto("Mesa", 360, 2475)
-const sillon = new Producto("Sillón", 800, 1200)
-const mesitaDeLuz = new Producto("Mesita de luz", 90, 1350)
-const cama = new Producto("Cama", 1300, 2000)
-const ropero = new Producto("Ropero", 1800, 2600)
-const escritorio = new Producto("Escritorio", 900, 1950)
-const lavavajillas = new Producto("Lavavajillas", 780, 3220)
-const productos = [heladera, cocina, microondas, mesa, sillon, mesitaDeLuz, cama, ropero, escritorio, lavavajillas]
+const producto1 = new Producto("Heladera", 350, 900)
+const producto2 = new Producto("Cocina", 300, 950)
+const producto3 = new Producto("Microondas", 100, 1575)
+const producto4 = new Producto("Mesa", 360, 2475)
+const producto5 = new Producto("Sillón", 800, 1200)
+const producto6 = new Producto("Mesita de luz", 90, 1350)
+const producto7 = new Producto("Cama", 1300, 2000)
+const producto8 = new Producto("Ropero", 1800, 2600)
+const producto9 = new Producto("Escritorio", 900, 1950)
+const producto10 = new Producto("Lavavajillas", 780, 3220)
+const producto1 = [producto1, producto2, producto3, producto4, producto5, producto6, producto7, producto8, producto9, producto10]
 
 const pujante1 = new Pujante("Juan")
 const pujante2 = new Pujante("Mabel")
